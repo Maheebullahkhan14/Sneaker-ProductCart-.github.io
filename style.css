@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap');
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    list-style: none;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+.nav-links{
+    display: flex;
+    margin: 0px 150px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+}
+.nav{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.nav .closemenu{
+    opacity: 0;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    display: flex;
+    margin: 0px 20px;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(15, 14, 14, 0.856);
+    cursor: pointer;
+}
+.nav ul li:hover{
+    color: rgba(15, 14, 14, 0.966);
+    font-weight: 600;
+}
+.nav .logo{
+    width: 120px;
+    height: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav .menu{
+    display: none;
+}
+.cart-User ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.cart-User ul li{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.avtar{
+    width: 30px;
+    height: 30px;
+}
+
+.container{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+    margin: 50px 150px;
+    
+}
+.left .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    flex-direction: column;
+}
+
+.New-img-container{
+    background-color: rgba(27, 29, 29, 0.692);
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    justify-content: center;
+    top: 0%;
+}
+.New-img-container .Closebtn{
+    position: absolute;
+    top: 60px;
+    width: 20px;
+    right: 5px;
+    color: white;
+}
+.New-img-container .next{
+    position: absolute;
+    top: 40%;
+    right: -25px;
+    width: 50px;
+    background-color: white;
+    padding: 19px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+.New-img .previous{
+    position: absolute;
+    top: 40%;
+    left: -25px;
+    width: 50px;
+    background-color: white;
+    padding: 19px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+.New-img-container .New-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    flex-direction: column;
+}
+.img-container .bigimg img{
+    width: 350px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.New-img-container .Newbigimg img{
+    width: 400px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.img-container .small-img-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.New-img-container .New-small-img-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.img-container .small-img-container img{
+    width: 72px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.New-img-container .New-small-img-container img{
+    width: 72px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img-container .small-img-container img:hover{
+   filter: opacity(50%);
+}
+.New-img-container .New-small-img-container img:hover{
+    filter: opacity(70%);
+    color: white;
+ }
+.im1 img.active{
+    border: 2px solid hsl(26, 100%, 55%);
+    filter: opacity(30%);
+}
+.Newim1 img.active{
+    background-color: #fff;
+    opacity: .5;
+}
+.Right{
+    margin-top: 40px;
+    width: 350px;
+}
+.header .companylogo{
+    color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.header .edition{
+    font-size: 35px;
+    font-weight: 1200;
+    margin-bottom: 30px;
+    
+}
+.Right .para{
+    font-size: 14px;
+    line-height: 22px;
+    color: hsl(220, 7%, 64%);
+    margin-bottom: 20px;
+    letter-spacing: 0.2px;
+}
+.pricing{
+    /* background-color: red; */
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.pricing h3{
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+.pricing .offer{
+    font-size: 15px;
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+.pricing .cutoff{
+    font-size: 15px;
+    text-decoration: line-through;
+    color: hsl(220, 7%, 64%);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.buttons .btn1{
+    background-color:hsla(222, 7%, 64%, 0.096);
+    width: 120px;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.btn1 ul{
+    display: flex  
+}
+.btn1 ul li{
+    margin: 0 10px;
+    padding: 5px;
+}
+.btn1 .increment,.decrement{
+    color: hsl(26, 100%, 55%);
+    cursor: pointer;
+}
+.btn2 .Cartbtn{
+    background-color: hsl(26, 100%, 55%);
+    width: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn2 .Cartbtn:hover{
+    filter: opacity(70%);
+}
+.btn2 .Cartbtn img{
+    width: 15px;
+    margin-right: 10px;
+}
+.CartBox{
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.CartBox .EmptyCart {
+    position: absolute;
+    right: 10px;
+    top: 38%;
+    cursor: pointer;
+}
+
+.Cartnav{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+    width: 100%;
+    height: 30px;
+}
+.Cartnav p{
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.CartBox .empty{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 15px;
+    font-weight: 900;
+}
+.CartBox .img img{
+    width: 45px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* //After Adding Cart */
+.CartBox .AddedCart{
+    padding: 25px;
+    display: flex;
+}
+.CartBox .emptydiv {
+    display: none;
+}
+.CartBox .AddedCart .emptydiv{
+    display: block;
+}
+.CartBox .AddedCart .data p{
+    font-size: 14px;
+    font-weight: 600;
+    color:hsla(24, 6%, 15%, 0.637);
+}
+.CartBox .AddedCart .data span.Money{
+    font-weight: 800;
+    color:hsl(24, 6%, 15%);
+    font-size: 15px;
+    font: bold;
+}
+.CartBox .check{
+    margin: 0 25px;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    background-color:hsl(26, 100%, 55%); 
+    font: bold;
+    font-weight: 800;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.CartBox .check:hover{
+    filter: opacity(60%);
+}
+
+@media screen and (max-width : 1032px){
+    .left .img-container{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .img-container .bigimg img{
+        width: 300px;
+    }
+    .img-container .small-img-container img{
+        width: 62px;    
+    }
+    .Right{
+        width: 300px;
+        margin-right: 30px;
+    }
+    .Right .para{
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 15px;
+        letter-spacing: 0.1px;
+    }
+    .pricing{
+        /* background-color: red; */
+        padding: 3px;
+        margin-bottom: 20px;
+    }
+    .pricing h3{
+        display: inline-block;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        margin-right: 10px;
+    }
+    .pricing .offer{
+        font-size: 12px;
+        padding: 1px 3px;
+        border-radius: 5px;
+        margin-bottom: 3px;
+    
+    }
+    .btn2 .Cartbtn{
+        
+        width: 150px;
+        padding: 12px;
+        font-size: 12px;
+       
+    }
+}
+@media screen and (max-width : 990px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-container .bigimg img{
+        width: 400px;
+        
+    }
+}
+@media screen and (max-width : 830px){
+    .container{
+        display: flex;
+        /* width: 100%; */
+        justify-content: space-around;
+        margin: 0px 150px;
+        
+    }
+    .nav{
+        height: 50px;
+    }
+    .nav ul{
+        position: absolute;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        flex-direction: column;
+        width: 40%;
+        top: 0px;
+        left: -100%;
+        height: 100%;
+        z-index: 5;
+        transition: 0.7s ease-in-out;
+        
+    }
+    .nav ul li{
+        margin: 20px 10px;
+        font-weight: 800;
+    }
+    .nav ul li.first{
+        margin-top: 40px;
+    }
+    .nav .menu{
+        display: inline-block;
+        margin-right: 25px;
+    }
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        margin: 0px;
+        /* width: 100%; */
+        
+    }
+    .Right{
+        width: 300px;
+        height: 100%;
+        margin: 0px ;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        
+        justify-content: space-between;
+        /* background-color: aqua; */
+    }
+    .buttons .btn1{ 
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .left .img-container{
+        width: 100%;
+        display: block;
+            
+        
+    }
+    .img-container .bigimg img{
+        width: 100%;
+        height: 300px;
+    }
+    .Right .para{
+        width: 100%;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        letter-spacing: 0.3px;
+    }
+    .pricing{
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn1 ul li{
+        margin: 0 40px;
+        padding: 5px;
+        font-size: 20px;
+        
+    }
+    .btn2 .Cartbtn{
+        margin-top: 10px;
+        width: 300px;
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .cart-User ul{
+        height: 50px;
+    }
+    .nav .closemenu{
+        width: 10px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        opacity: 1;
+        
+    }
+}

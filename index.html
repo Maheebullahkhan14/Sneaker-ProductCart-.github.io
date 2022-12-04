@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav-links">
+            <div class="nav">
+                <div class="menu">
+                    <img src="images/icon-menu.svg" alt="">
+                </div>
+                <img src="images/logo.svg" alt="" class="logo">
+
+                <ul>
+                    <div class="closemenu">
+                    <img src="images/icon-close.svg" alt="">
+                </div>
+                    <li class="first">Collections</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="cart-User">
+                <ul>
+                    <li class="Cart"><img src="images/icon-cart.svg"></li>
+                    <li><img src="images/image-avatar.png" class="avtar"></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <div class="img-container">
+                <div class="bigimg">
+                    <img src="/images/image-product-1.jpg" alt="" class="changeimg">
+                </div>
+                <div class="small-img-container">
+                    <div class="im1">
+                        <img src="/images/image-product-1-thumbnail.jpg" alt="" class="images active">
+                    </div>
+                    <div class="im1">
+                        <img src="/images/image-product-2-thumbnail.jpg" class="images">
+                    </div>
+                    <div class="im1">
+                        <img src="/images/image-product-3-thumbnail.jpg" alt="" class="images">
+                    </div>
+                    <div class="im1">
+                        <img src="/images/image-product-4-thumbnail.jpg" alt="" class="images">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Right">
+            <div class="header">
+                <p class="companylogo">sneaker company</p>
+                <h2 class="edition">Fall limited Edition Sneakers</h2>
+            </div>
+            <div class="para">
+                <p>These low-profile sneakers are your perfect casual wear comapnion .Featuring a durable rubber outer
+                    sole , they'all widthstand everything weather can offer</p>
+            </div>
+
+            <div class="pricing">
+                <h3 class="price">$125.00</h3><span class="offer">50%</span>
+                <p class="cutoff">$250</p>
+            </div>
+
+            <div class="buttons">
+                <div class="btn1">
+                    <ul>
+                        <li class="decrement">-</li>
+                        <li class="Addordecrese">0</li>
+                        <li class="increment">+</li>
+                    </ul>
+                </div>
+                <div class="btn2">
+                    <p class="Cartbtn">
+                        <span class="cart"><img src="/images/icon-cart.svg" alt=""></span>
+                        Add to cart
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="CartBox">
+        <div class="Cartnav">
+            <p>Cart</p>
+        </div>
+        <p class="empty">Your Cart is Empty</p>
+        <div class="emptydiv">
+            <i class="fa-solid fa-trash EmptyCart"></i>
+        </div>
+        <!-- <div class="AddedCart">
+            <div class="img">
+                <img src="/images/image-product-1-thumbnail.jpg" alt="">
+            </div>
+            <div class="data">
+                <p>Fall Limited Edition Sneakers</p>
+                <p>$125 x <span class="sneakersCount">3 <span class="Money">
+                    $375.00
+                </span></span></p>
+            </div>
+
+        </div>
+        <div class="check">
+            <p>Check out</p>
+        </div> -->
+    </div>
+    <div class="new-container">
+        <div class="New-img-container">
+
+
+            <div class="New-img">
+                <i class="fa-solid fa-xmark Closebtn"></i>
+                <img src="images/icon-previous.svg" alt="" class="previous">
+                <img src="images/icon-next.svg" alt="" class="next">
+                <div class="Newbigimg">
+                    <img src="/images/image-product-1.jpg" alt="" class="Newchangeimg">
+                </div>
+                <div class="New-small-img-container">
+                    <div class="Newim1">
+                        <img src="/images/image-product-1-thumbnail.jpg" alt="" class="Newimages active" id="1">
+                    </div>
+                    <div class="Newim1">
+                        <img src="/images/image-product-2-thumbnail.jpg" class="Newimages" id="2">
+                    </div>
+                    <div class="Newim1">
+                        <img src="/images/image-product-3-thumbnail.jpg" alt="" class="Newimages" id="3">
+                    </div>
+                    <div class="Newim1">
+                        <img src="/images/image-product-4-thumbnail.jpg" alt="" class="Newimages" id="=4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
